@@ -1,7 +1,7 @@
 # BMS-und-ESP32
 BMS mittels BLE auslesen mit einem ESP32 <br>
-Es sind 3 Versionen, für den TTGO mit 1.8 oder 2.4" Display oder den ESP32 Nodemcu mit getrenntem Display.<br>
-Der Sketch läuft auf jedem Fall auf dem ESP32, evtl. muss das Display und die Pins für die Tasten noch angepasst werden.<br>
+Es sind 2 Versionen, für den TTGO mit 1.8 oder 2.4" Display (oder den ESP32 Nodemcu mit getrenntem Display).<br>
+Der Sketch läuft auf jedem Fall auf dem ESP32, evtl. müssen das Display und die Pins für die Tasten noch angepasst werden.<br>
 Im Sketch steht – im ersten Reiter in der loop -  um die Zeile 488<br>
 packBasicInfo.ProtectionStatus = 32767;                  // 111111111111111 alle Fehler<br>
 damit werden zum Testen alle Fehler-Flags gesetzt, das muss im Betrieb auskommentiert werden.<br>
