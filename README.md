@@ -1,5 +1,5 @@
 # BMS-und-ESP32
-BMS mittels BLE auslesen mit einem ESP32 <br>
+BMS mittels BLE auslesen mit einem ESP32. <br>
 Es sind 3 Versionen, für den TTGO mit 1.8 oder 2.4" Display oder den ESP32 Nodemcu mit getrenntem Display (ILI9341).<br>
 Der Sketch läuft auf jedem Fall auf dem ESP32, evtl. müssen das Display und die Pins für die Tasten und die Uhr noch angepasst werden.<br>
 Im Sketch steht – im ersten Reiter in der loop -  um die Zeile 488<br>
